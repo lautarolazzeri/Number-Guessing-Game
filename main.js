@@ -8,7 +8,7 @@ let randomNumber = Math.floor(Math.random() * 10) + 1;
 
 let number;
 let Chances = 3;
-chancesTxt.innerHTML = "Chances:- " + Chances;
+chancesTxt.innerHTML = "Chances: " + Chances;
 console.log(randomNumber);
 
 btn.addEventListener("click", (e) => {
@@ -43,5 +43,5 @@ function play(e) {
   prompt_box.classList.remove("active");
   Chances = 3;
   txt.innerHTML = "";
-  chancesTxt.innerHTML = "Chances:- " + Chances;
+  chancesTxt.innerHTML = "Chances: " + Chances;
 }  
